@@ -2,8 +2,7 @@
     border:1px;
     border-color: black;
 }
-
-.container{
+#container{
     height:500px;
     width:500px;
 }
