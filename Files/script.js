@@ -8,4 +8,6 @@ for (let i = 0; i < 16*16; i++){
 
     //adds the new div to be inside of 'container'
     container.appendChild(newDiv);
+    //adds class 'boxes' to the divs
+    newDiv.classList.add("boxes");
 }
