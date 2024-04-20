@@ -1,1 +1,2 @@
-let container = document.getElementById("container");
+let container = document.getElementById("container"); //references to 'container' in html 
+let newDiv = document.createElement("div"); 
