@@ -1,3 +1,11 @@
-let container = document.getElementById("container"); //references to 'container' in html 
-let newDiv = document.createElement("div"); 
-container.appendChild(newDiv);
+//references the 'container' id in index.html
+let container = document.getElementById("container");
+
+
+for (let i = 0; i < 16*16; i++){
+    //creates a new div element
+    let newDiv = document.createElement("div"); 
+
+    //adds the new div to be inside of 'container'
+    container.appendChild(newDiv);
+}
