@@ -1,9 +1,8 @@
 .boxes{
-    border:1px;
-    border-color: black;
+    border:1px solid black;
 }
 #container{
     height:500px;
     width:500px;
-    border-color: black;
+    border: 20px solid black;
 }
