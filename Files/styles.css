@@ -3,4 +3,5 @@
     height:50vh;
     width:50vw;
     border: 20px solid black;
+    display:flex;
 }
