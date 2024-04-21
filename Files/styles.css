@@ -1,8 +1,6 @@
-.boxes{
-    border:10px solid black;
-}
+
 #container{
-    height:500px;
-    width:500px;
+    height:50vh;
+    width:50vw;
     border: 20px solid black;
 }
