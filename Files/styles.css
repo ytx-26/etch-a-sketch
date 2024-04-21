@@ -4,8 +4,8 @@
     align-items: center;
 }
 #container{
-    height:50vh;
-    width:50vw;
+    height:500px;
+    width:500px;
     border: 20px solid black;
     display:flex;
     flex-wrap: wrap;
