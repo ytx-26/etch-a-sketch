@@ -1,4 +1,8 @@
-
+#main-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 #container{
     height:50vh;
     width:50vw;
