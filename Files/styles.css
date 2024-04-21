@@ -6,3 +6,7 @@
     display:flex;
     flex-wrap: wrap;
 }
+
+.boxes{
+    background-color: aquamarine;
+}
