@@ -8,7 +8,7 @@
 }
 
 .boxes{
-    height: 50px;
-    width: 50px;
+    height: calc(50vh/16);
+    width: calc(50vw/16);
     background-color: aquamarine;
 }
