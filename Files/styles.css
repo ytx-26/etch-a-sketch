@@ -4,4 +4,5 @@
     width:50vw;
     border: 20px solid black;
     display:flex;
+    flex-wrap: wrap;
 }
