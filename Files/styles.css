@@ -1,3 +1,8 @@
+@font-face{
+    font-family:myFont;
+    src: url(../Files/Fonts/BADABB__.TTF)
+}
+
 .Website-Header{
     display:flex;
     align-items: center;
@@ -6,7 +11,7 @@
 }
 
 .Header-Title{
-    font-size: 10em;
+    
 }
 #main-container{
     display:flex;
