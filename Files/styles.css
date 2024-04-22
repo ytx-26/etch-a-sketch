@@ -1,4 +1,4 @@
- /*F*/
+ /*'Etch-a-Sketch edits*/
 @font-face{
     font-family:myFont;
     src: url(../Files/Fonts/BADABB__.TTF)
@@ -14,7 +14,7 @@
     font: 4em myFont;
 }
 
- /* */
+ /*The main Etch a sketch box editing*/
 #main-container{
     display:flex;
     justify-content: center;
