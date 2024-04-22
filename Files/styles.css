@@ -2,7 +2,11 @@
     display:flex;
     align-items: center;
     justify-content: center;
-    
+
+}
+
+.Header-Title{
+    font-size: 2em;
 }
 #main-container{
     display:flex;
