@@ -33,7 +33,6 @@
 .boxes{
     height: calc(500px/16);
     width: calc(500px/16);
-    background-color: aquamarine;
 }
 
 html, body{
