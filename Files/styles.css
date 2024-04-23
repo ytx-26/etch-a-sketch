@@ -3,6 +3,10 @@
     font-family:myFont;
     src: url(../Files/Fonts/BADABB__.TTF)
 }
+@font-face{
+    font-family:Latos;
+    src: url(../Files/Fonts/Lato.zip)
+}
 
 .Website-Header{
     display:flex;
