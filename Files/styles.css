@@ -17,7 +17,7 @@
  /*The main Etch a sketch box editing*/
 #main-container{
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     margin-bottom: 80px;
 }
