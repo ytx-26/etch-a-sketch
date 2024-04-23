@@ -5,8 +5,7 @@
 }
 @font-face{
     font-family: Latos;
-    src: url(../Files/Fonts/Lato.woff) format('woff'),
-         url(../Files/Fonts/Lato.woff2) format('woff2');
+    src: url(../Files/Fonts/Latos/Lato-Regular.ttf)
 }
 
 .Website-Header{
