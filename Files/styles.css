@@ -35,6 +35,10 @@
     width: calc(500px/16);
 }
 
+.Resolution{
+    margin-right: auto;
+}
+
 html, body{
     background-color: #ededed;
 }
