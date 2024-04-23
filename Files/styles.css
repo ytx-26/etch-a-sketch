@@ -49,5 +49,10 @@ html, body{
     margin-bottom: 20px;
 }
 
+input.Input-Field{
+    height:50%;
+    width: 50%;
+}
+
 
 
