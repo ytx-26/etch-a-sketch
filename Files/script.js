@@ -15,4 +15,4 @@ for (let i = 0; i < 16*16; i++){
 
 let input = document.getElementsByClassName("Input-Field");
 let InputValueOne = input[0].value;
-let InputValueTwo = input[1].value; 
+let InputValueTwo = input[1].value;
