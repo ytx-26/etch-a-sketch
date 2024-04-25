@@ -53,7 +53,7 @@ html, body{
     margin-bottom: 20px;
 }
 
-input.Input-Field{
+.Input-Field-One{
     height: 35px;
     width: 35px;
 }
@@ -62,6 +62,10 @@ input.Input-Field{
     font-family: Latos;
 }
 
+.Input-Field-Two{
+    height: 35px;
+    width: 35px;
+}
 
 
 
