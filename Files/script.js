@@ -16,8 +16,8 @@ for (let i = 0; i < 16*16; i++){
 let inputOne = document.getElementsByClassName("Input-Field-One");
 let inputTwo = document.getElementsByClassName("Input-Field-Two");
 
-inputTwo.addEventListener('input', updateBoxDimensions);
 inputOne.addEventListener('input', updateBoxDimensions);
+inputTwo.addEventListener('input', updateBoxDimensions);
 
 function updateBoxDimensions(){ 
 
