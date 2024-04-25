@@ -13,8 +13,8 @@ for (let i = 0; i < 16*16; i++){
 
 //Grid input 
 
-let inputOne = document.getElementsByClassName("Input-Field-One");
-let inputTwo = document.getElementsByClassName("Input-Field-Two");
+let inputOne = document.querySelector("Input-Field-One");
+let inputTwo = document.querySelector("Input-Field-Two");
 
 inputOne.addEventListener('input', updateBoxDimensions);
 inputTwo.addEventListener('input', updateBoxDimensions);
