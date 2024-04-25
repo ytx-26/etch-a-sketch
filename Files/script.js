@@ -20,5 +20,6 @@ inputOne.addEventListener('input', updateBoxDimensions);
 inputTwo.addEventListener('input', updateBoxDimensions);
 
 function updateBoxDimensions(){ 
-
+    const width = inputOne.value; 
+    const height = inputTwo.value;
 }
