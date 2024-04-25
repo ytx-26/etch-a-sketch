@@ -18,3 +18,7 @@ let inputTwo = document.getElementsByClassName("Input-Field-Two");
 
 inputTwo.addEventListener('input', updateBoxDimensions);
 inputOne.addEventListener('input', updateBoxDimensions);
+
+function updateBoxDimensions(){ 
+
+}
