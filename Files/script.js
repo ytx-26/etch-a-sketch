@@ -13,6 +13,4 @@ for (let i = 0; i < 16*16; i++){
 
 //Grid input 
 
-let input = document.getElementsByClassName("Input-Field");
-let InputValueOne = input[0].value;
-let InputValueTwo = input[1].value;
+let inputOne = document.getElementsByClassName("Input-Field-One");
