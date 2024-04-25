@@ -23,5 +23,4 @@ function updateBoxDimensions(){
     const width = inputOne.value; 
     const height = inputTwo.value;
 
-
 }
