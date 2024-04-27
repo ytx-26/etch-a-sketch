@@ -9,6 +9,8 @@ let inputTwo = document.querySelector(".Input-Field-Two");
 let boxRunner = defaultBoxDimensions();
 
 function defaultBoxDimensions(){
+
+    container.innerHTML = '';
     //gets the value of input box 
     const width = inputOne.value; 
     const height = inputTwo.value;
