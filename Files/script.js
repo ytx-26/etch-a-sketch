@@ -1,5 +1,6 @@
 //references the 'container' id in index.html
 let container = document.getElementById("container");
+let boxRunner = defaultBoxDimensions();
 
 //references two input boxes 
 let inputOne = document.querySelector(".Input-Field-One");
