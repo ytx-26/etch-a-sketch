@@ -6,7 +6,7 @@ let inputOne = document.querySelector(".Input-Field-One");
 let inputTwo = document.querySelector(".Input-Field-Two");
 
 inputOne.addEventListener('input', boxRunner);
-inputOne.addEventListener('input', boxRunner);
+inputTwo.addEventListener('input', boxRunner);
 
 function defaultBoxDimensions(){
     //clears container beforehand
