@@ -28,4 +28,6 @@ function defaultBoxDimensions(){
 }
 
 //Function call
-let boxRunner = defaultBoxDimensions();
+function boxRunner(){
+    defaultBoxDimensions();
+}
