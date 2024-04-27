@@ -5,15 +5,15 @@ let container = document.getElementById("container");
 let inputOne = document.querySelector(".Input-Field-One");
 let inputTwo = document.querySelector(".Input-Field-Two");
 
-//calls function after we get value 
-let boxRunner = defaultBoxDimensions();
 
 function defaultBoxDimensions(){
-
+    //clears container beforehand
     container.innerHTML = '';
+
     //gets the value of input box 
     const width = inputOne.value; 
     const height = inputTwo.value;
+
     for (let i = 0; i < width * height; i++){
         //creates a new div element
         let newDiv = document.createElement("div"); 
@@ -24,6 +24,9 @@ function defaultBoxDimensions(){
         newDiv.classList.add("boxes");
     }
 }
+
+//Function call
+let boxRunner = defaultBoxDimensions();
 
 //Grid input 
 
