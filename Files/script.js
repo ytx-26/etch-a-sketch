@@ -5,14 +5,13 @@ let container = document.getElementById("container");
 let inputOne = document.querySelector(".Input-Field-One");
 let inputTwo = document.querySelector(".Input-Field-Two");
 
-//gets the value of input box 
-const width = inputOne.value; 
-const height = inputTwo.value;
-
 //calls function after we get value 
 let boxRunner = defaultBoxDimensions();
 
 function defaultBoxDimensions(){
+    //gets the value of input box 
+    const width = inputOne.value; 
+    const height = inputTwo.value;
     for (let i = 0; i < width*height; i++){
         //creates a new div element
         let newDiv = document.createElement("div"); 
