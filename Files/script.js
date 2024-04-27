@@ -1,6 +1,10 @@
 //references the 'container' id in index.html
 let container = document.getElementById("container");
 
+//references two input boxes 
+let inputOne = document.querySelector(".Input-Field-One");
+let inputTwo = document.querySelector(".Input-Field-Two");
+
 function defaultBoxDimensions(){
     for (let i = 0; i < 16*16; i++){
         //creates a new div element
@@ -14,9 +18,6 @@ function defaultBoxDimensions(){
 }
 
 //Grid input 
-
-let inputOne = document.querySelector(".Input-Field-One");
-let inputTwo = document.querySelector(".Input-Field-Two");
 
 inputOne.addEventListener('input', updateBoxDimensions);
 inputTwo.addEventListener('input', updateBoxDimensions);
