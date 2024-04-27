@@ -25,7 +25,7 @@ function updateBoxDimensions(){
 
     let boxes = document.querySelectorAll(".boxes");
 
-    boxes.style.height = "calc(500px/width)"
+    boxes.style.height = "calc(500px/height)"
 
 
 }
