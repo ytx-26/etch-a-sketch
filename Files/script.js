@@ -1,6 +1,5 @@
 //references the 'container' id in index.html
 let container = document.getElementById("container");
-let boxRunner = defaultBoxDimensions();
 
 //references two input boxes 
 let inputOne = document.querySelector(".Input-Field-One");
@@ -9,6 +8,9 @@ let inputTwo = document.querySelector(".Input-Field-Two");
 //gets the value of input box 
 const width = inputOne.value; 
 const height = inputTwo.value;
+
+//calls function after we get value 
+let boxRunner = defaultBoxDimensions();
 
 function defaultBoxDimensions(){
     for (let i = 0; i < 16*16; i++){
