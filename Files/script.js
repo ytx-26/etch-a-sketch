@@ -13,7 +13,7 @@ const height = inputTwo.value;
 let boxRunner = defaultBoxDimensions();
 
 function defaultBoxDimensions(){
-    for (let i = 0; i < 16*16; i++){
+    for (let i = 0; i < width*height; i++){
         //creates a new div element
         let newDiv = document.createElement("div"); 
     
