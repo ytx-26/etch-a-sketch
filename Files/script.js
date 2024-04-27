@@ -27,18 +27,3 @@ function defaultBoxDimensions(){
 
 //Function call
 let boxRunner = defaultBoxDimensions();
-
-//Grid input 
-
-inputOne.addEventListener('input', updateBoxDimensions);
-inputTwo.addEventListener('input', updateBoxDimensions);
-
-function updateBoxDimensions(){ 
-
-    let boxes = document.querySelectorAll(".boxes");
-
-    boxes.style.height = "calc(500px/height)"
-    boxes.style.width = "calc(500px/width)"
-
-
-}
