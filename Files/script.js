@@ -6,6 +6,10 @@ let boxRunner = defaultBoxDimensions();
 let inputOne = document.querySelector(".Input-Field-One");
 let inputTwo = document.querySelector(".Input-Field-Two");
 
+//gets the value of input box 
+const width = inputOne.value; 
+const height = inputTwo.value;
+
 function defaultBoxDimensions(){
     for (let i = 0; i < 16*16; i++){
         //creates a new div element
@@ -24,8 +28,6 @@ inputOne.addEventListener('input', updateBoxDimensions);
 inputTwo.addEventListener('input', updateBoxDimensions);
 
 function updateBoxDimensions(){ 
-    const width = inputOne.value; 
-    const height = inputTwo.value;
 
     let boxes = document.querySelectorAll(".boxes");
 
