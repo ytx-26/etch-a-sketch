@@ -24,6 +24,8 @@ function defaultBoxDimensions(){
         container.appendChild(newDiv);
         //adds class 'boxes' to the divs
         newDiv.classList.add("boxes");
+        boxes.style.width = "calc(500px/width)";
+        boxes.style.height = "calc(500px/height);"
     }
     console.log("Width:", width, "Height:", height);
 
