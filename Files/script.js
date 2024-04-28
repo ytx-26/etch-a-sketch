@@ -25,6 +25,8 @@ function defaultBoxDimensions(){
         //adds class 'boxes' to the divs
         newDiv.classList.add("boxes");
     }
+    console.log("Width:", width, "Height:", height);
+
 }
 
 //Function call
