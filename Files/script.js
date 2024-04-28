@@ -14,7 +14,7 @@ function defaultBoxDimensions(){
 
     //gets the value of input box 
     const width = inputOne.value; 
-    const height = inputTwo.value;.trim();
+    const height = inputTwo.value.trim();
 
     for (let i = 0; i < width * height; i++){
         //creates a new div element
