@@ -41,3 +41,4 @@ function boxRunner(){
 //Changing Background-Colour 
 
 let boxSelection = document.querySelectorAll('.boxes');
+boxSelection.addEventListener('click', backgroundColour);
