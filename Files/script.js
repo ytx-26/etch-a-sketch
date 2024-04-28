@@ -40,9 +40,10 @@ function boxRunner(){
 
 //Changing Background-Colour 
 
-let boxSelection = document.querySelectorAll('.boxes');
-boxSelection.addEventListener('click', backgroundColour);
 
 function backgroundColour{
     newDiv.style.backgroundColour = "black";
 }
+
+let boxSelection = document.querySelectorAll('.boxes');
+boxSelection.addEventListener('click', backgroundColour);
