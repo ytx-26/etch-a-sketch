@@ -42,7 +42,7 @@ function boxRunner(){
 
 
 function backgroundColour(){
-    newDiv.style.backgroundColour = "black";
+    this.style.backgroundColour = "black";
 }
 
 let boxSelection = document.querySelectorAll('.boxes');
