@@ -1,10 +1,11 @@
-//references the 'container' id in index.html
+//References the 'container' id in index.html
 let container = document.getElementById("container");
 
-//references two input boxes 
+//References to the two input boxes
 let inputOne = document.querySelector(".Input-Field-One");
 let inputTwo = document.querySelector(".Input-Field-Two");
 
+//Event Listeners
 inputOne.addEventListener('input', boxRunner);
 inputTwo.addEventListener('input', boxRunner);
 
