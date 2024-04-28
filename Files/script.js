@@ -41,7 +41,7 @@ function boxRunner(){
 //Changing Background-Colour 
 
 
-function backgroundColour{
+function backgroundColour(){
     newDiv.style.backgroundColour = "black";
 }
 
