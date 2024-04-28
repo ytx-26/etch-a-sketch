@@ -41,8 +41,8 @@ function boxRunner(){
 //Changing Background-Colour 
 
 
-function backgroundColour(){
-    this.style.backgroundColor = "black";
+function backgroundColour(event) {
+    event.target.style.backgroundColor = "black";
 }
 
 let boxSelection = document.querySelectorAll('.boxes');
