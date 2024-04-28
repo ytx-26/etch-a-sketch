@@ -44,5 +44,5 @@ let boxSelection = document.querySelectorAll('.boxes');
 boxSelection.addEventListener('click', backgroundColour);
 
 function backgroundColour{
-    newDiv.style.backgroundColour = `black`;
+    newDiv.style.backgroundColour = "black";
 }
