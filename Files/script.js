@@ -31,5 +31,6 @@ function defaultBoxDimensions(){
 
 //Function call
 function boxRunner(){
+    console.log("boxRunner called");
     defaultBoxDimensions();
 }
