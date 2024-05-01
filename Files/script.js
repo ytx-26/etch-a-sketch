@@ -43,6 +43,7 @@ function boxRunner(){
 
 function backgroundColour(event) {
     event.target.style.backgroundColor = "black";
+    console.log('black')
 }
 
 let boxSelection = document.querySelectorAll('.boxes');
