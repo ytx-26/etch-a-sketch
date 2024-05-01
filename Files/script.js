@@ -48,6 +48,6 @@ function backgroundColour(event) {
 
 let boxSelection = document.querySelectorAll('.boxes');
 
-boxSelection.forEach(box => {
-    box.addEventListener('click', backgroundColour);
+boxSelection.forEach(boxes => {
+    boxes.addEventListener('click', backgroundColour);
 });
